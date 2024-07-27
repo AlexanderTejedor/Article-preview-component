@@ -1,0 +1,44 @@
+/*========== var ==========*/
+:root{
+    /*===== colors =====*/
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+
+    /*===== fonts =====*/
+    --normal-font-weight: 400;
+    --bold-font-weight: 700;
+}
+/*========== reset ==========*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+/*========== general ==========*/
+
+/*========== main ==========*/
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-grayish-blue);
+}
+.card-container{
+    max-width: 375px;
+}
+.banner-container{
+    position: relative;
+}
+.banner-container img{
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}

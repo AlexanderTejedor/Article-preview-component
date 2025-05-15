@@ -9,11 +9,9 @@
 }
 
 :root{
-  --font-size: 13px;
   --font: "Manrope", sans-serif;
 }
 
 *{
-  font-size: var(--font-size);
   font-family: var(--font);
 }

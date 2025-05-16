@@ -43,7 +43,7 @@ const Home = () => {
                                 <img src={twitterIcon} alt="Twitter Icon" />
                                 <img src={pinterestIcon} alt="Pinterest Icon" />
                             </div>
-                            <div className={`${ shared ? 'triangle lg:bg-very-dark-grayish-blue w-10 relative top-8 right-18' : 'hidden' }`}></div>
+                            <div className={`${ shared ? 'triangle lg:bg-very-dark-grayish-blue lg:w-10 lg:relative lg:top-8 lg:right-18' : 'hidden' }`}></div>
                         </div>
                         <div className={`bg-desaturated-dark-blue rounded-full w-9 h-9 flex items-center justify-center ${shared ? 'lg:hidden' : ''}`}>
                             <i className={`ri-share-forward-fill text-white text-xl ${shared ? 'lg:hidden' : ''}`}></i>
